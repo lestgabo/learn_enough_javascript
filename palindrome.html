@@ -4,13 +4,20 @@
     <title>Palindrome Tester</title>
     <meta charset="utf-8">
     <script src="bundle.js"></script>
-    <script>
-      let now = new Date();
-      alert(greeting(now));
-    </script>
   </head>
   <body>
     <h1>Palindrome Tester</h1>
+    
+    <form id="palindromeTester">
+      <textarea name="phrase" rows="10" columns="30"></textarea>
+      <br>
+      <button type="submit">Is it a palindrome?</button>
+    </form>
+    
+    <h2>Result</h2>
+    
+    <p id="palindromeResult"></p>
+    
   </body>
   
 </html>
